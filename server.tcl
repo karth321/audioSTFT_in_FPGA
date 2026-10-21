@@ -19,8 +19,12 @@ proc process_data {channel} {
     set data [read $channel]
     set num_bytes [string length $data]
     if {$num_bytes > 0} {
-        puts "Received $num_bytes bytes from Python Host."
-        # Note: When the FPGA is flashed, JTAG master_write commands forward $data to the FPGA RX FIFO
+        # Convert binary data to hex representation
+        binary scan $data H* hex_data
+        
+        puts "Received $num_bytes bytes over TCP:"
+        # Print the first 24 hex characters (Header + First Few Samples)
+        puts "  Hex Snippet: [string range $hex_data 0 23]..."
     }
 }
 
