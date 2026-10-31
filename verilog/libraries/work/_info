@@ -1,0 +1,171 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/karthik/Projects/Signal Processing/STFT_final/verilog
+vfft_1024_core
+Z1 !s110 1792677681
+!i10b 1
+!s100 IK50^9Oh4DE?;HE<=FYNz1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>_V38PVXWRLW4lO2zRc^d1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1792661858
+8fft_1024_core/simulation/fft_1024_core.v
+Ffft_1024_core/simulation/fft_1024_core.v
+!i122 0
+L0 6 43
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1792677681.000000
+!s107 fft_1024_core/simulation/fft_1024_core.v|
+!s90 -reportprogress|300|fft_1024_core/simulation/fft_1024_core.v|
+!i113 1
+Z6 tCvgOpt 0
+vhann_rom_lut
+R1
+!i10b 1
+!s100 5VH:J]hRH3MK4gE>@?ZQo0
+R2
+Id6h^<^DVbG3k@fJe7BOXe2
+R3
+R0
+w1792644191
+8hann_rom_lut.v
+Fhann_rom_lut.v
+!i122 1
+L0 2 19
+R4
+r1
+!s85 0
+31
+R5
+!s107 tb_stft.v|jtag_tx_streamer.v|output_formatter.v|signal_processing.v|jtag_input_receiver.v|hann_rom_lut.v|
+Z7 !s90 -reportprogress|300|-work|work|hann_rom_lut.v|jtag_input_receiver.v|signal_processing.v|output_formatter.v|jtag_tx_streamer.v|tb_stft.v|
+!i113 1
+Z8 o-work work
+R6
+vjtag_input_receiver
+R1
+!i10b 1
+!s100 T8mLC7nA?VS>HYgFJfG452
+R2
+ImSKQIBDaB4BXXmBFb2cKF2
+R3
+R0
+w1792644333
+8jtag_input_receiver.v
+Fjtag_input_receiver.v
+!i122 1
+L0 2 76
+R4
+r1
+!s85 0
+31
+R5
+Z9 !s107 tb_stft.v|jtag_tx_streamer.v|output_formatter.v|signal_processing.v|jtag_input_receiver.v|hann_rom_lut.v|
+R7
+!i113 1
+R8
+R6
+vjtag_tx_streamer
+R1
+!i10b 1
+!s100 L<ILio5S]B_@0S`V3]?jE0
+R2
+IeXPclzOOz0N:Zn5HGkOEg3
+R3
+R0
+w1792644536
+8jtag_tx_streamer.v
+Fjtag_tx_streamer.v
+!i122 1
+L0 2 21
+R4
+r1
+!s85 0
+31
+R5
+R9
+R7
+!i113 1
+R8
+R6
+voutput_formatter
+R1
+!i10b 1
+!s100 gFgAAdDPkAE]KaVFYV_kc2
+R2
+I@2F>^Tmz54IgnCoNF=fYO3
+R3
+R0
+w1792645778
+8output_formatter.v
+Foutput_formatter.v
+!i122 1
+L0 2 91
+R4
+r1
+!s85 0
+31
+R5
+R9
+R7
+!i113 1
+R8
+R6
+vsignal_processing
+R1
+!i10b 1
+!s100 I@c?3QZ_3E>nlicX0Q@VL0
+R2
+IC_UFMQ>g]VBSG[FA_3H_i0
+R3
+R0
+w1792646326
+8signal_processing.v
+Fsignal_processing.v
+!i122 1
+L0 2 73
+R4
+r1
+!s85 0
+31
+R5
+R9
+R7
+!i113 1
+R8
+R6
+vtb_stft
+R1
+!i10b 1
+!s100 4[VcLP_1F3;e8Am1a1TNk2
+R2
+IGU08gUeOEda>o1;kkHW553
+R3
+R0
+w1792647614
+8tb_stft.v
+Ftb_stft.v
+!i122 1
+L0 3 143
+R4
+r1
+!s85 0
+31
+R5
+R9
+R7
+!i113 1
+R8
+R6

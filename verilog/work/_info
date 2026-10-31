@@ -1,0 +1,197 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/karthik/Projects/Signal Processing/STFT_final/verilog
+vfft_1024_core
+Z1 !s110 1792674237
+!i10b 1
+!s100 IK50^9Oh4DE?;HE<=FYNz1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Id=_6^lIK0CQD9Ri[]j5[92
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1792661858
+8fft_1024_core/simulation/fft_1024_core.v
+Ffft_1024_core/simulation/fft_1024_core.v
+!i122 8
+L0 6 43
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1792674237.000000
+!s107 fft_1024_core/simulation/fft_1024_core.v|
+!s90 -reportprogress|300|-work|work|fft_1024_core/simulation/fft_1024_core.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vfft_1024_core_fft_ii_0
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+R1
+!i10b 1
+!s100 S3;`W<fhKB49^oXGCnTNi0
+R2
+I>eSnnfOkDe]Wn@jRAznJ]3
+R3
+S1
+R0
+R4
+8fft_1024_core/simulation/submodules/fft_1024_core_fft_ii_0.sv
+Ffft_1024_core/simulation/submodules/fft_1024_core_fft_ii_0.sv
+!i122 7
+L0 15 66
+R5
+r1
+!s85 0
+31
+R6
+!s107 fft_1024_core/simulation/submodules/fft_1024_core_fft_ii_0.sv|
+!s90 -reportprogress|300|-work|work|fft_1024_core/simulation/submodules/fft_1024_core_fft_ii_0.sv|
+!i113 1
+R7
+R8
+vhann_rom_lut
+R1
+!i10b 1
+!s100 5VH:J]hRH3MK4gE>@?ZQo0
+R2
+Id6h^<^DVbG3k@fJe7BOXe2
+R3
+R0
+w1792644191
+8hann_rom_lut.v
+Fhann_rom_lut.v
+!i122 9
+L0 2 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 hann_rom_lut.v|
+!s90 -reportprogress|300|-work|work|hann_rom_lut.v|
+!i113 1
+R7
+R8
+vjtag_input_receiver
+Z9 !s110 1792674238
+!i10b 1
+!s100 T8mLC7nA?VS>HYgFJfG452
+R2
+ImSKQIBDaB4BXXmBFb2cKF2
+R3
+R0
+w1792644333
+8jtag_input_receiver.v
+Fjtag_input_receiver.v
+!i122 10
+L0 2 76
+R5
+r1
+!s85 0
+31
+Z10 !s108 1792674238.000000
+!s107 jtag_input_receiver.v|
+!s90 -reportprogress|300|-work|work|jtag_input_receiver.v|
+!i113 1
+R7
+R8
+vjtag_tx_streamer
+R9
+!i10b 1
+!s100 L<ILio5S]B_@0S`V3]?jE0
+R2
+IeXPclzOOz0N:Zn5HGkOEg3
+R3
+R0
+w1792644536
+8jtag_tx_streamer.v
+Fjtag_tx_streamer.v
+!i122 13
+L0 2 21
+R5
+r1
+!s85 0
+31
+R10
+!s107 jtag_tx_streamer.v|
+!s90 -reportprogress|300|-work|work|jtag_tx_streamer.v|
+!i113 1
+R7
+R8
+voutput_formatter
+R9
+!i10b 1
+!s100 gFgAAdDPkAE]KaVFYV_kc2
+R2
+I@2F>^Tmz54IgnCoNF=fYO3
+R3
+R0
+w1792645778
+8output_formatter.v
+Foutput_formatter.v
+!i122 12
+L0 2 91
+R5
+r1
+!s85 0
+31
+R10
+!s107 output_formatter.v|
+!s90 -reportprogress|300|-work|work|output_formatter.v|
+!i113 1
+R7
+R8
+vsignal_processing
+R9
+!i10b 1
+!s100 I@c?3QZ_3E>nlicX0Q@VL0
+R2
+IC_UFMQ>g]VBSG[FA_3H_i0
+R3
+R0
+w1792646326
+8signal_processing.v
+Fsignal_processing.v
+!i122 11
+L0 2 73
+R5
+r1
+!s85 0
+31
+R10
+!s107 signal_processing.v|
+!s90 -reportprogress|300|-work|work|signal_processing.v|
+!i113 1
+R7
+R8
+vtb_stft
+R9
+!i10b 1
+!s100 4[VcLP_1F3;e8Am1a1TNk2
+R2
+IGU08gUeOEda>o1;kkHW553
+R3
+R0
+w1792647614
+8tb_stft.v
+Ftb_stft.v
+!i122 14
+L0 3 143
+R5
+r1
+!s85 0
+31
+R10
+!s107 tb_stft.v|
+!s90 -reportprogress|300|-work|work|tb_stft.v|
+!i113 1
+R7
+R8

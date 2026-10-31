@@ -1,0 +1,36 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core.qsys" --block-symbol-file --output-directory="/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core" --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading verilog/fft_1024_core.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 25.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fft_1024_core.fft_ii_0: Radix-2 digit reverse implied
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core.qsys" --synthesis=VERILOG --output-directory="/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/synthesis" --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading verilog/fft_1024_core.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 25.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fft_1024_core.fft_ii_0: Radix-2 digit reverse implied
+Info: fft_1024_core: Generating "fft_1024_core" for QUARTUS_SYNTH
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_2n1024sin.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_3n1024cos.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_3n1024sin.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_1n1024cos.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_1n1024sin.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_2n1024cos.hex
+Info: fft_ii_0: "fft_1024_core" instantiated altera_fft_ii "fft_ii_0"
+Info: fft_1024_core: Done "fft_1024_core" with 2 modules, 108 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

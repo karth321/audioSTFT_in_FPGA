@@ -1,0 +1,77 @@
+Info: Starting: Create simulation model
+Info: qsys-generate "/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core.qsys" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/simulation" --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading verilog/fft_1024_core.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 25.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fft_1024_core.fft_ii_0: Radix-2 digit reverse implied
+Info: fft_1024_core: Generating "fft_1024_core" for SIM_VERILOG
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_2n1024sin.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_3n1024cos.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_3n1024sin.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_1n1024cos.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_1n1024sin.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_2n1024cos.hex
+Info: fft_ii_0: "fft_1024_core" instantiated altera_fft_ii "fft_ii_0"
+Info: fft_1024_core: Done "fft_1024_core" with 2 modules, 410 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd="/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/fft_1024_core.spd" --output-directory="/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/simulation/" --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/fft_1024_core.spd --output-directory=/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for VCSMX simulator in /home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for MODELSIM simulator in /home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for RIVIERA simulator in /home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for XCELIUM simulator in /home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/simulation/ directory:
+Info: 	xcelium/cds.lib
+Info: 	xcelium/hdl.var
+Info: 	xcelium/xcelium_setup.sh
+Info: 	1 .cds.lib files in xcelium/cds_libs/ directory
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under /home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core.qsys" --block-symbol-file --output-directory="/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core" --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading verilog/fft_1024_core.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 25.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fft_1024_core.fft_ii_0: Radix-2 digit reverse implied
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core.qsys" --synthesis=VERILOG --output-directory="/home/karthik/Projects/Signal Processing/STFT_final/verilog/fft_1024_core/synthesis" --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading verilog/fft_1024_core.qsys
+Progress: Reading input file
+Progress: Adding fft_ii_0 [altera_fft_ii 25.1]
+Progress: Parameterizing module fft_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: fft_1024_core.fft_ii_0: Radix-2 digit reverse implied
+Info: fft_1024_core: Generating "fft_1024_core" for QUARTUS_SYNTH
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_2n1024sin.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_3n1024cos.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_3n1024sin.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_1n1024cos.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_1n1024sin.hex
+Info: fft_ii_0: --- add file: fft_1024_core_fft_ii_0_2n1024cos.hex
+Info: fft_ii_0: "fft_1024_core" instantiated altera_fft_ii "fft_ii_0"
+Info: fft_1024_core: Done "fft_1024_core" with 2 modules, 108 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
