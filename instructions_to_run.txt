@@ -1,0 +1,25 @@
+python3 --version
+
+sudo apt update
+sudo apt install python3 python3-pip python3-venv -y
+
+# Navigate to your project folder
+<project dir>/python
+
+# Create a virtual environment named .venv
+python3 -m venv .venv
+
+# Activate the virtual environment
+source .venv/bin/activate
+
+create file server.tcl
+
+python3 format_tx.py
+run python in terminal 2
+
+
+**
+/home/<user>/altera_lite/25.1std/quartus/sopc_builder/bin/system-console --cli --script="$PWD/server.tcl"
+use the path to system-console in your system instead of mine.
+run in terminal 1 in directory <project dir>/python
+**
